@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/banner.jpg") no-repeat center;
+    background: url("images/bg1.jpeg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -366,21 +366,21 @@ section .title::after{
     width: 90%;
 }
 .skills-content .right .css::before{
-    width: 70%;
+    width: 90%;
 }
 .skills-content .right .js::before{
-    width: 60%;
+    width: 85%;
 }
-.skills-content .right .php::before{
-    width: 50%;
+.skills-content .right .react::before{
+    width: 90%;
 }
 .skills-content .right .mysql::before{
-    width: 70%;
+    width: 75%;
 }
 
 /* teams section styling */
 .teams .title::after{
-    content: "who with me";
+    content: "what i Done";
 }
 .teams .carousel .card{
     background: #222;
@@ -440,6 +440,27 @@ section .title::after{
 .owl-dot:hover{
     background: crimson!important;
 }
+
+/* websites button design */
+.service-card {
+  display: inline-block;
+  background: crimson;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 16px;
+  margin-top: 20px;
+  border-radius: 6px;
+  border: 2px solid black;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.service-card:hover {
+  color: black;
+  background: none;
+}
+
 
 /* contact section styling */
 .contact .title::after{
